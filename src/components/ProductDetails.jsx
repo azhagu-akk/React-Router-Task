@@ -28,7 +28,7 @@ const ProductDetails = () => {
     <div className="pt-10 flex flex-col lg:flex-row justify-around items-center lg:items-start  gap-12 font-poppins px-12 lg:px-24 ">
       <img src={product.image} alt={product.title} className="lg:h-72 lg:w-72 h-60 w-60  " />
       <div className="space-y-6">
-        <h1 className="text-3xl font-bold  ">{product.title}</h1>
+        <h1 className="lg:text-3xl font-bold  text-xl">{product.title}</h1>
         <p className="text-justify">{product.description}</p>
         <p className="text-xl font-bold bg-black rounded-lg text-white inline-block px-6 py-2">
           ${product.price}
