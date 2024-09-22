@@ -50,5 +50,40 @@ This is a simple e-commerce project built using React. It utilizes the Fake Stor
    
 4. **Discount:** A 10% discount is applied to the total price in the cart.
 
+## File Structure
+
+1. **src**
+   
+   - **assests**
+        
+     - fonts
+       
+   - **components**
+     
+     - Navbar.jsx
+     - Products.jsx
+     - Cart.jsx
+     - ProductDetails.jsx
+
+    - **context**
+      - CartContext.jsx
+        
+    - **services**
+      - ApiService.jsx
+        
+    - **App.js**
+      
+    - **index.css**
+      
+    - **README.md**
+  
+    - **main.jsx**
+ 
+
+
+      
+
+   
+
 
 
